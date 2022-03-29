@@ -140,7 +140,7 @@ public class TicketsTest {
       System.out.printf(counter+". FLIGHT NO.%s | %-5s DEPORTING AT %s \n%30s ARRIVING AT  %s\n",times.flight_number,"FROM "+times.dep_icao,times.dep_time_utc, "| TO "+times.arr_icao, times.arr_time_utc);
       System.out.println("DATA| "+ times.toString()+ " |\n");
       counter++;
-    } //Testing
+    } ///Testing
     assert Flights.size()>1;
     }
 }
